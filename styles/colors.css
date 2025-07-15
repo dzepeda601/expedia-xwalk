@@ -9,3 +9,15 @@
 .text-expedia-blue {
   color: #00355f;
 }
+
+.bg-dark {
+  background-color: #000;
+}
+
+.bg-light {
+  background-color: #fff;
+}
+
+.bg-expedia-yellow {
+  background-color: #fcd12a;
+}
