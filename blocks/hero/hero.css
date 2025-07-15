@@ -84,3 +84,7 @@ section {
 .hero.expedia-blue {
   color: #00355f; /* Replace with Expedia's actual brand blue */
 }
+
+.hero.bg-dark {
+  background-color: #1a1a1a;
+}
