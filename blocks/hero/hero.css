@@ -76,3 +76,11 @@ section {
   border-radius: 4px;
   display: inline-block;
 }
+
+.hero.white-text {
+  color: white;
+}
+
+.hero.expedia-blue {
+  color: #00355f; /* Replace with Expedia's actual brand blue */
+}
