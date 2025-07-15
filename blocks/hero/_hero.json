@@ -40,6 +40,17 @@
           "value": "",
           "label": "Text",
           "valueType": "string"
+        },
+        {
+          "component": "select",
+          "name": "textColor",
+          "label": "Text Color",
+          "valueType": "string",
+          "items": [
+            { "text": "Default", "value": "" },
+            { "text": "White", "value": "white-text" },
+            { "text": "Expedia Blue", "value": "expedia-blue" }
+          ]
         }
       ]
     }
