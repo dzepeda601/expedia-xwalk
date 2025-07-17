@@ -1,3 +1,4 @@
+/* === Default Grid Layout for Cards === */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -51,4 +52,26 @@
 
 .cards > ul > li a:hover {
   text-decoration: underline;
+}
+
+/* === Side-by-Side Card Style === */
+.cards > ul > li.side-by-side {
+  flex-direction: row;
+  align-items: stretch;
+  min-height: 250px;
+}
+
+.cards > ul > li.side-by-side .card-text {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards > ul > li.side-by-side .card-image {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
 }

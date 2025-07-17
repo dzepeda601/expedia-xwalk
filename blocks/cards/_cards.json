@@ -13,7 +13,17 @@
             }
           }
         }
-      }
+      },
+      "styles": [
+        {
+          "id": "default",
+          "label": "Standard Card"
+        },
+        {
+          "id": "side-by-side",
+          "label": "Side-by-Side Card"
+        }
+      ]
     },
     {
       "title": "Card",
