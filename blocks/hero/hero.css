@@ -1,19 +1,38 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
-}
-
 .hero {
   position: relative;
   padding: 40px 24px;
-  min-height: 300px;
+  min-height: 500px;
+  display: flex;
+  align-items: flex-end;
+  color: #ffffff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6); /* for readability */
 }
 
 .hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.hero .cta-button {
+  display: inline-block;
+  background-color: #ffb700; /* Expedia yellow */
+  color: #000;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 1rem;
 }
 
 .hero picture {
@@ -34,57 +53,8 @@
   .hero {
     padding: 40px 32px;
   }
-}
 
-section {
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 480px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 2rem;
-  color: #000;
-}
-
-.promo {
-  background-color: #fcd12a;
-  padding: 2rem;
-  max-width: 420px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  border-radius: 8px;
-}
-
-.promo h2 {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
-.promo p {
-  font-size: 1rem;
-  margin-bottom: 1.2rem;
-}
-
-.promo a {
-  background-color: #000;
-  color: #fff;
-  padding: 0.75rem 1.5rem;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 4px;
-  display: inline-block;
-}
-
-.hero.white-text {
-  color: white;
-}
-
-.hero.expedia-blue {
-  color: #191E3B; /* Replace with Expedia's actual brand blue */
-}
-
-.hero.bg-dark {
-  background-color: #1a1a1a;
+  .hero h1 {
+    font-size: 3rem;
+  }
 }

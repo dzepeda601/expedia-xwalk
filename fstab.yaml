@@ -3,3 +3,5 @@ mountpoints:
     url: "https://author-p128727-e1256870.adobeaemcloud.com/bin/franklin.delivery/dzepeda601/expedia-xwalk/main"
     type: "markup"
     suffix: ".html"
+  /expedia-demo-example:
+    url: "/documents/expedia-demo-example.md"
